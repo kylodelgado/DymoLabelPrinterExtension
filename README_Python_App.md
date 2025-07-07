@@ -33,7 +33,7 @@ python3 dymo_label_printer.py
 
 1. **Run the app** using one of the methods above
 2. **Check "Always stay on top"** if you want the window to stay visible
-3. **Select label type** from dropdown (CPU, MOBO, Screen) or add a new one
+3. **Select label type** from dropdown (CPU, MOBO, SCREEN) or add a new one
 4. **Enter SKU** in the text field
 5. **Click "Print Label"** or press Enter
 

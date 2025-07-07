@@ -19,11 +19,11 @@ class DymoLabelPrinter {
     async loadLabelTypes() {
         try {
             const result = await chrome.storage.local.get(['labelTypes']);
-            this.labelTypes = result.labelTypes || ['CPU', 'MOBO', 'Screen'];
+            this.labelTypes = result.labelTypes || ['CPU', 'MOBO', 'SCREEN'];
             console.log('Loaded label types:', this.labelTypes);
         } catch (error) {
             console.error('Error loading label types:', error);
-            this.labelTypes = ['CPU', 'MOBO', 'Screen'];
+            this.labelTypes = ['CPU', 'MOBO', 'SCREEN'];
         }
     }
 

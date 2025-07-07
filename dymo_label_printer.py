@@ -51,13 +51,13 @@ class DymoLabelPrinter:
             if os.path.exists(self.config_file):
                 with open(self.config_file, 'r') as f:
                     config = json.load(f)
-                    self.label_types = config.get('label_types', ['CPU', 'MOBO', 'Screen'])
+                    self.label_types = config.get('label_types', ['CPU', 'MOBO', 'SCREEN'])
                     self.always_on_top = config.get('always_on_top', False)
             else:
-                self.label_types = ['CPU', 'MOBO', 'Screen']
+                self.label_types = ['CPU', 'MOBO', 'SCREEN']
                 self.always_on_top = False
         except:
-            self.label_types = ['CPU', 'MOBO', 'Screen']
+            self.label_types = ['CPU', 'MOBO', 'SCREEN']
             self.always_on_top = False
     
     def save_config(self):

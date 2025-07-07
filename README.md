@@ -4,7 +4,7 @@ This Chrome extension allows you to print DYMO labels with custom label types an
 
 ## Features
 
-- **Dropdown for Label Types**: Select from previously used label types (CPU, MOBO, Screen) or add new ones
+- **Dropdown for Label Types**: Select from previously used label types (CPU, MOBO, SCREEN) or add new ones
 - **SKU Input**: Enter the SKU/barcode text that will be printed
 - **Persistent Storage**: Your custom label types are saved and remembered
 - **Direct DYMO Printing**: Communicates directly with DYMO Connect software
@@ -37,7 +37,7 @@ This Chrome extension allows you to print DYMO labels with custom label types an
 1. **Open the Extension**: Click on the extension icon in Chrome's toolbar
 
 2. **Select Label Type**: 
-   - Choose from existing types (CPU, MOBO, Screen)
+   - Choose from existing types (CPU, MOBO, SCREEN)
    - Or select "+ Add New Label Type" to create a custom one
 
 3. **Enter SKU**: Type the SKU/barcode text in the second field
